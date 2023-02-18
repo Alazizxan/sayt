@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+{% block title %}BITCOIN.com{% endblock title %}
+{% block content %}
+<h1>Welcom to Bitcoin.com </h1>
+
+
+
+<br />
+<br />
+<h2>Log In</h2>
+<form method="post">{% csrf_token %}
+    {{ form|crispy}}
+    <br>
+   <div class="d-grid gap-2 col-6 mx-auto">
+        <button type="submit" class="btn btn-primary" >Log In</button>
+</form>
+{% endblock content %}

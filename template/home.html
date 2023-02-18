@@ -1,0 +1,257 @@
+{% extends "base.html" %}
+
+{% block title %}BTC.com{% endblock title %}
+
+{% block content %}
+    {% if user.is_authenticated %}
+        {{ user.username | title }}!
+
+ 
+        <p class="h1" style='text-align:center'>Welcom to<span class="badge text-bg-secondary"> BTC.com</span></p>
+
+
+<hr>
+
+<br>
+{% if user.is_superuser %}
+<span class="badge rounded-pill bg-success">info</span>
+<br/></br>
+ <div class="col">
+            <div class="card">
+              <div class="card-header">
+                Account: Jhon
+              </div>
+              <div class="card-body">
+                <h5 style='text-align : center' class="card-title">Account Balance:</h5>
+                <p class="h3" style='text-align : center'><span class="badge text-bg-warning">btc Balance: 56,0590.10 $</span></p>
+                
+              </div>
+              <div class="card-footer text-muted">
+                2 days ago
+              </div>
+            </div>
+          </div>
+         </br>
+         <a href="{% url 'card' %}" class="btn btn-primary" >Send to card</a>
+         </br>
+         </br>
+
+          <a href="{% url 'btc' %}" class="btn btn-primary" >+ BTC</a>
+          </br>
+
+
+
+
+
+
+
+  
+
+
+        <br/>
+
+
+      
+
+
+       
+
+
+</br>
+</br>
+
+<h2 style='text-align:center'>Operation history</h2>
+        <br/>
+
+
+        <div class="bd-example-snippet bd-code-snippet"><div class="bd-example">
+        <table class="table table-hover">
+          <thead>
+          <tr>
+            <th scope="col">$ </th>
+            <th scope="col">send to card</th>
+            <th scope="col">operation</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <th scope="row">-500 $</th>
+            <td>Uzcard</td>
+            <td><span class="badge rounded-pill bg-success">confirm!</span></td>
+          </tr>
+          
+          <tr class="table-primary">
+            <th scope="row">-2,000 $</th>
+            <td>debit card</td>
+            <td><span class="badge rounded-pill bg-success">confirm!</span></td>
+          </tr>
+          <tr class="table-secondary">
+            <th scope="row">+10,000 $</th>
+            <td>Visa</td>
+            <td><span class="badge rounded-pill bg-success">confirm!</span></td>
+          </tr>
+          <tr class="table-success">
+            <th scope="row">-3,000 $</th>
+            <td>Debit Card</td>
+            <td><span class="badge rounded-pill bg-success">confirm!</span></td>
+          </tr>
+          <tr class="table-danger">
+            <th scope="row">-25,000 $</th>
+            <td>Uzcard</td>
+            <td>not!</td>
+          </tr>
+          <tr class="table-warning">
+            <th scope="row">+10,000 $</th>
+            <td>BTC</td>
+            <td><span class="badge rounded-pill bg-success">confirm!</span></td>
+          </tr>
+          <tr class="table-info">
+            <th scope="row">+1,500 $</th>
+            <td>TRX</td>
+            <td><span class="badge rounded-pill bg-success">confirm!</span></td>
+          </tr>
+          <tr class="table-light">
+            <th scope="row"></th>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr class="table-dark">
+            <th scope="row"></th>
+            <td></td>
+            <td></td>
+          </tr>
+          </tbody>
+        </table>
+        </div></div>
+
+
+
+
+</br>
+</br>
+</br>
+
+
+
+
+
+
+
+
+
+
+
+
+         <h2 class="display-6 text-center mb-4">Transaktion Hitoriy:</h2>
+
+    <div class="table-responsive">
+      <table class="table text-center">
+        <thead>
+          <tr>
+            <th style="width: 14%;"></th>
+            <th style="width: 22%;">BTC: </th>
+            <th style="width: 22%;">$</th>
+            <th style="width: 22%;">Send to :</th>
+            
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row" class="text-start">№: 7488747</th>
+            <td><svg class="bi" width="24" height="24"><p>0.20</p><use xlink:href="#check"/></svg></td>
+            <td><svg class="bi" width="24" height="24"><p>3000$</p><use xlink:href="#check"/></svg></td>
+            <td><svg class="bi" width="24" height="24"><p style="text-color: green;">9860 **** **** 1278</p><use xlink:href="#check"/></svg></td>
+          </tr>
+          <tr>
+            <th scope="row" class="text-start">Network free: </th>
+            <td></td>
+            
+            <td><svg class="bi" width="24" height="24"><p>20$</p><use xlink:href="#check"/></svg></td>
+            <td><svg class="bi" width="24" height="24"><span class="badge rounded-pill bg-success">Confirm!</span><use xlink:href="#check"/></svg></td>
+          </tr>
+        </tbody>
+
+        <tbody>
+          <tr>
+            <th scope="row" class="text-start">№: 43957937</th>
+            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/><p>0.03</p></svg></td>
+            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/><p>560$</p></svg></td>
+            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/><p>8600 **** **** 9526</p></svg></td>
+          </tr>
+          <tr>
+            <th scope="row" class="text-start">Network Free:</th>
+            <td></td>
+            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/><p>5$</p></svg></td>
+            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/><span class="badge rounded-pill bg-success">confirm!</span></svg></td>
+          </tr>
+          <tr>
+            <th scope="row" class="text-start">№: 673643034</th>
+            <td></td>
+            <td><svg class="bi" width="24" height="24"><p>12 000 $</p><use xlink:href="#check"/></svg></td>
+            <td><svg class="bi" width="24" height="24"><p></p>9860 **** **** 9754<use xlink:href="#check"/></svg></td>
+          </tr>
+          <tr>
+            <th scope="row" class="text-start">Network Free: </th>
+            <td></td>
+            <td></td>
+            <td><svg class="bi" width="24" height="24"><p>X!</p><use xlink:href="#check"/></svg></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+{% else %}
+    <span class="badge rounded-pill bg-success">info</span>
+<br/></br>
+ <div class="col">
+            <div class="card">
+              <div class="card-header">
+                Account: {{ user.username }}
+              </div>
+              <div class="card-body">
+                <h5 style='text-align : center' class="card-title">Account Balance:</h5>
+                <p class="h3" style='text-align : center'><span class="badge text-bg-warning">btc Balance: 00.0 $</span></p>
+               
+              </div>
+              <div class="card-footer text-muted">
+                Today
+              </div>
+            </div>
+          </div>
+          </br>
+  <a href="#" class="btn btn-primary" >- to card</a>
+</br>
+</br>
+ <a href="{% url 'btc' %}" class="btn btn-primary" >+ btc</a>
+{% endif %}
+
+
+
+
+
+
+
+
+
+        
+    {% else %}
+        <br /><br />
+        <br />
+        
+
+        <br /><br />
+        <br />
+        <p style='text-align: center;'>Log in </p>
+        <a href='{% url 'login' %}'>
+        <div class="d-grid gap-2 col-6 mx-auto">
+        <button type="submit" class="btn btn-primary" >Log In</button> 
+        </div>      
+        </a> 
+        <br />      
+        <a href='{% url 'signup' %}'>
+        <div class="d-grid gap-2 col-6 mx-auto">
+        <button type="submit" class="btn btn-primary" >Sig In</button>
+        </div>
+        </a>
+    {% endif %}
+{% endblock content %}
