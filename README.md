@@ -4,13 +4,11 @@
 
 ![Aora - Full-Stack AI Video Sharing Platform using Expo & React Native](/.github/images/img_main.png "Aora - Full-Stack AI Video Sharing Platform using Expo & React Native")
 
-[![Ask Me Anything!](https://flat.badgen.net/static/Ask%20me/anything?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy "Ask Me Anything!")
-[![GitHub license](https://flat.badgen.net/github/license/sanidhyy/aora-app?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/aora-app/blob/main/LICENSE "GitHub license")
-[![Maintenance](https://flat.badgen.net/static/Maintained/yes?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/aora-app/commits/main "Maintenance")
-[![GitHub branches](https://flat.badgen.net/github/branches/sanidhyy/aora-app?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/aora-app/branches "GitHub branches")
-[![Github commits](https://flat.badgen.net/github/commits/sanidhyy/aora-app?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/aora-app/commits "Github commits")
-[![GitHub issues](https://flat.badgen.net/github/issues/sanidhyy/aora-app?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/aora-app/issues "GitHub issues")
-[![GitHub pull requests](https://flat.badgen.net/github/prs/sanidhyy/aora-app?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/aora-app/pulls "GitHub pull requests")
+[![Ask Me Anything!](https://flat.badgen.net/static/Ask%20me/anything?icon=github&color=black&scale=1.01)](https://github.com/Alazizxan "Ask Me Anything!")
+[![GitHub license](https://flat.badgen.net/github/license/Alazizxan/aora-app?icon=github&color=black&scale=1.01)](https://github.com/Alazizxan/aora-app/blob/main/LICENSE "GitHub license")
+...
+[![GitHub followers](https://img.shields.io/github/followers/Alazizxan?style=social&label=Follow&maxAge=2592000)](https://github.com/Alazizxan "Follow Me on GitHub")
+
 
 <!-- Table of Contents -->
 <details>
@@ -236,23 +234,13 @@ Useful resources and libraries that are used in Aora:
 
 ## :rocket: Follow Me
 
-[![GitHub followers](https://img.shields.io/github/followers/sanidhyy?style=social&label=Follow&maxAge=2592000)](https://github.com/sanidhyy "Follow Me on GitHub")
-[![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FTechnicalShubam)](https://twitter.com/intent/tweet?text=Wow:&url=https://github.com/sanidhyy/aora-app "Tweet about this project")
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@OPGAMER. "Subscribe my YouTube Channel")
+
 
 ## :star: Give A Star
 
 You can also give this repository a star to show more people and they can use this repository.
 
-## :star2: Star History
 
-<a href="https://star-history.com/#sanidhyy/aora-app&Timeline" title="Github Star History">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=sanidhyy/aora-app&type=Timeline&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=sanidhyy/aora-app&type=Timeline" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=sanidhyy/aora-app&type=Timeline" />
-  </picture>
-</a>
 
 <br />
 <p align="right">(<a href="#readme-top" title="Back to top">back to top</a>)</p>
