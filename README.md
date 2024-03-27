@@ -4,10 +4,10 @@
 
 ![Aora - Full-Stack AI Video Sharing Platform using Expo & React Native](/.github/images/img_main.png "Aora - Full-Stack AI Video Sharing Platform using Expo & React Native")
 
-[![Ask Me Anything!](https://flat.badgen.net/static/Ask%20me/anything?icon=github&color=black&scale=1.01)](https://github.com/Alazizxan "Ask Me Anything!")
-[![GitHub license](https://flat.badgen.net/github/license/Alazizxan/aora-app?icon=github&color=black&scale=1.01)](https://github.com/Alazizxan/aora-app/blob/main/LICENSE "GitHub license")
+[![Ask Me Anything!](https://flat.badgen.net/static/Ask%20me/anything?icon=github&color=black&scale=1.01)](https://github.com/Alaziz "Ask Me Anything!")
+[![GitHub license](https://flat.badgen.net/github/license/Alaziz/aora-app?icon=github&color=black&scale=1.01)](https://github.com/Alaziz/aora-app/blob/main/LICENSE "GitHub license")
 ...
-[![GitHub followers](https://img.shields.io/github/followers/Alazizxan?style=social&label=Follow&maxAge=2592000)](https://github.com/Alazizxan "Follow Me on GitHub")
+[![GitHub followers](https://img.shields.io/github/followers/Alaziz?style=social&label=Follow&maxAge=2592000)](https://github.com/Alaziz "Follow Me on GitHub")
 
 
 <!-- Table of Contents -->
